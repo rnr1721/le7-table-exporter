@@ -9,9 +9,9 @@ use rnr1721\Core\Utils\Tables\Writer\TableCsvRendererFile;
 use rnr1721\Core\Utils\Tables\Writer\TableCsvRendererString;
 use rnr1721\Core\Utils\Tables\Writer\TableHtmlRendererString;
 use rnr1721\Core\Utils\Tables\Writer\TableExporter;
-use rnr1721\Core\Contracts\Tables\TableExporterFactoryInterface;
+use rnr1721\Core\Contracts\Tables\TableExporterWriterFactoryInterface;
 
-class TableExporterWriterFactory implements TableExporterFactoryInterface
+class TableExporterWriterFactory implements TableExporterWriterFactoryInterface
 {
 
     public function getTableExporterCsvFile(
